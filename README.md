@@ -44,6 +44,19 @@ Reference:
 
 ## Adding Comments to Source Code
 
+We can add comments to the source code as follows:
++ `;`, `#!`, and `#!/` starts single line comments `\cite[\S1.3.1 Delimiters and Dispatch and \S1.3.9 Reading Comments]{Flatt2021a}`
+	- `#!` and `#!/` support multi-line comments byy using `\` at the end of each line in the multi-line comment till it ends. 
++ `#|` and `|#` enclose block comments. These block comments can be nested `\cite[\S1.3.1 Delimiters and Dispatch]{Flatt2021a}`
++ `#;` starts S-expression comments `\cite[\S1.3.1 Delimiters and Dispatch and \S1.3.9 Reading Comments]{Flatt2021a}`
+
+
+
+
+
+
+
+
 
 
 
