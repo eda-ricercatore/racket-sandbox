@@ -53,7 +53,20 @@ We can add comments to the source code as follows:
 
 
 
+## Control Operations/Constructs
 
+### If-Else Expressions
+
+Just like Haskell `\cite{Ong2021}`, `if-then-else` expressions must have an expression for the `else` clause that returns a value.
+`If` clauses/operations without their corresponding `else` clauses are invalid.
+
+
+
+References:
++ Ong2021
+	- Zhiyang Ong, "Control Operations," in README.md, from GitHub: eda-ricercatore: haskell-sandbox, GitHub, Inc., San Francisco, CA, June 29, 2021. Available online from GitHub: eda-ricercatore: haskell-sandbox: README.md at: https://github.com/eda-ricercatore/haskell-sandbox/blob/main/README.md; June 30, 2021 was the last access date.
++ Søgaard2012
+	- Jens Axel "soegaard" Søgaard, Answer to "Why is one-armed “if” missing from Racket?", Stack Exchange Inc., New York, NY, June 2, 2012. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/10863193/1531728; June 30, 2021 was the last access date.
 
 
 
