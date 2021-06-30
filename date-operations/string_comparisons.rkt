@@ -5,9 +5,6 @@ Reference:
 + Rosetta Code contributors, "Date format: Haskell," from Rosetta Code, June 8, 2021. Available online from Rosetta Code: Explore: Programming Tasks category: D: Date format: \S47 Haskell at: https://www.rosettacode.org/wiki/Date_format#Racket; June 30, 2021 was the last access date.
 |#
 
-
-
-
 (require srfi/19)
 
 (print "Hello, World!")
@@ -35,7 +32,7 @@ Reference:
 #|
   References for string equality comparisons.
   \cite[\S4.4.2 String Comparisons]{Flatt2021a}
-  Rosetta Code contributors, "Substring: Haskell: Strings," from Rosetta Code, June 8, 2021. Available online from Rosetta Code: Explore: Programming Tasks category: S: Substring: Haskell: Strings at: https://rosettacode.org/wiki/Substring#Haskell; June 29, 2021 was the last access date.
+  Rosetta Code contributors, "String comparison: \S67 Racket," from Rosetta Code, March 25, 2021. Available online from Rosetta Code: Explore: Programming Tasks category: S: String comparison: Racket: at: https://rosettacode.org/wiki/String_comparison#Racket; June 30, 2021 was the last access date.
 |#
 (string=? "June 30" "June 30")
 (string=? "June 29" "June 30")
