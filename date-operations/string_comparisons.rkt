@@ -37,6 +37,13 @@ Reference:
 (string=? "June 30" "June 30")
 (string=? "June 29" "June 30")
 (string=? "June 10" "June 11")
+#|
+  References for string equality comparisons,
+    based on variable assignments;
+    that is, assign strings to variables before comparing them.
+  
+  Óscar Andrés López, Answer to "how assign values to variables in racket?", Stack Exchange Inc., New York, NY, January 20, 2014. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/21237431/1531728; June 30, 2021 was the last access date.
+|#
 (let ((birthday "June 30") (currentDay "June 30"))
   (string=? birthday currentDay))
 #|
