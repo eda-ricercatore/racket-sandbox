@@ -50,8 +50,12 @@ Reference:
   (string=? birthday currentDay))
 (let ((currentDay (date->string (current-date) "~B ~e")) (birthday "June 30"))
   (string=? birthday currentDay))
+(let ((currentDay (date->string (current-date) "~B ~e")) (birthday "June 43"))
+  (string=? birthday currentDay))
 #|
-(set! currentDay "June 30")
-(string=? (displayln (date->string (current-date) "~B ~e")) "June 30")
-;(string=? "June 30" (displayln (date->string (current-date) "~B ~e")))
+  References:
+  
+  From the Miscellaneous Libraries section in \cite{Alama2021}:
+    Jesse Alama et al., "While loops for Racket", from Racket Documentation: Miscellaneous Libraries section, Version 8.1, May, 2021. Available online from Racket Documentation: Miscellaneous Libraries section at: https://docs.racket-lang.org/dyoo-while-loop/index.html; June 30, 2021 was the last access date.
+
 |#
