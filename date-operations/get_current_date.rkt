@@ -1,5 +1,14 @@
 #lang racket/base
 
+#|
+
+Reference:
++ Rosetta Code contributors, "Date format: Haskell," from Rosetta Code, June 8, 2021. Available online from Rosetta Code: Explore: Programming Tasks category: D: Date format: \S47 Haskell at: https://www.rosettacode.org/wiki/Date_format#Racket; June 30, 2021 was the last access date.
+
+|#
+
+
+
 (require srfi/19)
 
 (print "Hello, World!")
