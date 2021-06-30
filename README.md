@@ -13,10 +13,11 @@ It also include study notes for learning *Racket*.
 
 File Extensions for *Racket* programs and associated files:
 + `.rkt` file extension for source code files that contain/represent modules.
-- These files typically include the "`#lang` line at the top". It may also include the keyword `module`, which "can be imported as modules \[using the keyword\] `require`."
-
-The .rktl and .rkts file extensions are used for files meant to be loaded at the top-level that aren't modules. They don't necessarily have a #lang .... line at the top, and must be loaded in some external environment with load instead of imported with require. These usually have a more "dynamic" feel to them, and they're used more often with scripts that use mutation of variables across multiple files. This is not the "encouraged" style in Racket.
-
+	- These files typically include the "`#lang` line at the top". It may also include the keyword `module`, which "can be imported as modules \[using the keyword\] `require`."
++ "`.rktl` and `.rkts` file extensions for" source code files "at the top-level".
+	- These files are not *Racket* modules, and usually do not have a "`#lang` line at the top."
+	- Use `load` to include/load these source code files in an external environment, rather than use the `require` command to import them.
+	- They may mutate variables found in imported source code files or modules, and are like scripts of dynamically typed, high-level programming languages; this is discouraged, since variables should not be mutated in functional programming.
 The .rktd file extension is used for files that just have data encoded as s-expressions, not code. These files should not be required or loaded (they should not be executed as code). However, other programs use them to store data on the file system using write, and to read the data later using read. It's purpose is the same as a .sexp file or a .json file, just pure data.
 
 
