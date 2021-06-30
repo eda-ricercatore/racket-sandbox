@@ -51,6 +51,16 @@ We can add comments to the source code as follows:
 + `#;` starts S-expression comments `\cite[\S1.3.1 Delimiters and Dispatch and \S1.3.9 Reading Comments]{Flatt2021a}`
 
 
+###	Naming Conventions
+
+
+
+
+References:
++ Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
+
+
+
 
 
 ## Control Operations/Constructs
