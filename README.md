@@ -22,10 +22,22 @@ File Extensions for *Racket* programs and associated files:
 	- These files do not contain source code. Hence, they must not be executed as source code.
 	- These files must not be mandatory/necessary/required, nor imported/loaded. (they should not be executed as code).
 	- *Racket* programs can store (encoded) data in these files using `write` and read data from them using `read`.
-	- These files are analogous to  .sexp file or a .json file, just pure data.
-
-
+	- These files are analogous to `.sexp` or `.json` files of "pure data."
 
 
 Reference:
 + Alex Knauth, Answer to "What is the extension for Haskell? [closed]", Stack Exchange Inc., New York, NY, June 10, 2016. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/37748411/1531728; June 29, 2021 was the last access date.
+
+From *Wikipedia*, the `.rktd` and `.sexp` files seem to contain "S-expressions or symbolic expressions, abbreviated as sexpr or sexp".
+
+Reference:
++ Wikipedia contributors, "S-expression," in *Wikipedia, The Free Encyclopedia: Data serialization formats*, Wikimedia Foundation, San Francisco, CA, June 24, 2021. Available online from *Wikipedia, The Free Encyclopedia: Data serialization formats* at: https://en.wikipedia.org/wiki/S-expression; June 30, 2021 was the last access date.
+
+`.json` files store data in the JSON (JavaScript Object Notation) data exchange format.
+
+
+Reference:
++ Wikipedia contributors, "JSON," in *Wikipedia, The Free Encyclopedia: Data serialization formats*, Wikimedia Foundation, San Francisco, CA, June 8, 2021. Available online from *Wikipedia, The Free Encyclopedia: Data serialization formats* at: https://en.wikipedia.org/wiki/JSON; June 30, 2021 was the last access date.
+
+
+
