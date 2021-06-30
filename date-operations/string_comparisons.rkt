@@ -37,4 +37,10 @@ Reference:
 (string=? "June 30" "June 30")
 (string=? "June 29" "June 30")
 (string=? "June 10" "June 11")
-
+(let ((birthday "June 30") (currentDay "June 30"))
+  (string=? birthday currentDay))
+#|
+(set! currentDay "June 30")
+(string=? (displayln (date->string (current-date) "~B ~e")) "June 30")
+;(string=? "June 30" (displayln (date->string (current-date) "~B ~e")))
+|#
