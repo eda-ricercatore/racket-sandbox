@@ -60,6 +60,17 @@ We can add comments to the source code as follows:
 Just like Haskell `\cite{Ong2021}`, `if-then-else` expressions must have an expression for the `else` clause that returns a value.
 `If` clauses/operations without their corresponding `else` clauses are invalid.
 
+If the `else` clause is not required, use the `when` or `unless` operations instead.
+
+```
+(when test expr-on-true)
+
+
+```
+
+Map `(if test expr1)` to `(when test expr1)`, and `(if (not test) expr1)` to `(unless test expr1)`.
+
+
 
 
 References:
