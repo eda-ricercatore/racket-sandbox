@@ -67,15 +67,19 @@ Other naming conventions may be allowed, but are not *Racket* idiomatic, such as
 References:
 + Butterick2021
 	- Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
-+ Butterick2021
++ Butterick2021a
 	- Matthew Butterick, "Identifiers," from Beautiful Racket -- An Introduction to Language-Oriented Programming Using Racket: Explainers: Identifiers, Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/explainer/identifiers.html and https://beautifulracket.com/#explainers; June 30, 2021 was the last access date.
 
 
 ### Binding Creation
 
-Create bindings explicitly with: `define`, `let`, or `lambda`. Explicit bindings will override existing shallow (or implicit) bindings.
+Create bindings explicitly with: `define`, `let`, or `lambda`. Explicit bindings will override existing shallow (or implicit) bindings (e.g., due to `require` expressions).
 
-
+References:
++ Butterick2021
+	- Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
++ Butterick2021b
+	- Matthew Butterick, "Glossary," from Beautiful Racket -- An Introduction to Language-Oriented Programming Using Racket: Appendix: Glossary, Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/appendix/glossary.html#binding and https://beautifulracket.com/#appendix; June 30, 2021 was the last access date.
 
 
 
