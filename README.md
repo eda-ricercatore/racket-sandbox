@@ -122,13 +122,35 @@ If the `else` clause is not required, use the `when` or `unless` operations inst
 Map `(if test expr1)` to `(when test expr1)`, and `(if (not test) expr1)` to `(unless test expr1)`.
 
 
+*Racket* `if` expressions have only one boolean condition and two branches, and function like the ternary operator in *C* and *C++* -like programming languages `\cite{King2016}`.
+
+
 
 
 References:
 + Ong2021
 	- Zhiyang Ong, "Control Operations," in README.md, from GitHub: eda-ricercatore: haskell-sandbox, GitHub, Inc., San Francisco, CA, June 29, 2021. Available online from GitHub: eda-ricercatore: haskell-sandbox: README.md at: https://github.com/eda-ricercatore/haskell-sandbox/blob/main/README.md; June 30, 2021 was the last access date.
 + Søgaard2012
-	- Jens Axel "soegaard" Søgaard, Answer to "Why is one-armed “if” missing from Racket?", Stack Exchange Inc., New York, NY, June 2, 2012. Available online from Stack Exchange Inc.: Stack Overflow: Questions at: https://stackoverflow.com/a/10863193/1531728; June 30, 2021 was the last access date.
+	- Jens Axel "soegaard" Søgaard, Answer to "Why is one-armed “if” missing from Racket?", Stack Exchange Inc., New York, NY, June 2, 2012. Available online from *Stack Exchange Inc.: Stack Overflow: Questions* at: https://stackoverflow.com/a/10863193/1531728; June 30, 2021 was the last access date.
++ King2016
+	- Alexis King, Answer to "If statements in Racket", Stack Exchange Inc., New York, NY, January 22, 2016. Available online from *Stack Exchange Inc.: Stack Overflow: Questions* at: https://stackoverflow.com/a/34956312/1531728; July 1, 2021 was the last access date.
+
+
+
+## Functions
+
+
+
+*Racket* functions have to return one and only one value from its operations `\cite{Sevilla2016}`.
+
+
+
+
+References:
++ Sevilla2016
+	- Diego Sevilla, Answer to "If statements in Racket", Stack Exchange Inc., New York, NY, January 22, 2016. Available online from *Stack Exchange Inc.: Stack Overflow: Questions* at: https://stackoverflow.com/a/34956312/1531728; July 1, 2021 was the last access date.
+
+
 
 
 
