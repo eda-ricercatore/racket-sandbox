@@ -59,6 +59,8 @@ Identifiers cannot be a numerical value (e.g., `84`), nor include whitespace nor
 
 The binding is an unique association (or "mapping"/relationship) between the identifier and the value, function, or macro. That is, multiple values, functions, or macros cannot share the same binding to an identifier.
 
+A macro can be bound to an identifier or create new bindings for an existing identifier. 
+
 A compilation requirement is that each identifier must have a binding.
 
 Other naming conventions may be allowed, but are not *Racket* idiomatic, such as capitalized names (e., `Color`), separating words in an identifier with an underscore instead of a hyphen (e.g., `mass_of_person`), capitalizing the first character of each word in the identifier (e.g., `Modified-Nodal-Analysis` or `ModifiedNodalAnalysis`).
@@ -78,6 +80,8 @@ Create bindings explicitly with: `define`, `let`, or `lambda`. Explicit bindings
 References:
 + Butterick2021
 	- Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
++ Butterick2021a
+	- Matthew Butterick, "Identifiers," from Beautiful Racket -- An Introduction to Language-Oriented Programming Using Racket: Explainers: Identifiers, Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/explainer/identifiers.html and https://beautifulracket.com/#explainers; June 30, 2021 was the last access date.
 + Butterick2021b
 	- Matthew Butterick, "Glossary," from Beautiful Racket -- An Introduction to Language-Oriented Programming Using Racket: Appendix: Glossary, Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/appendix/glossary.html#binding and https://beautifulracket.com/#appendix; June 30, 2021 was the last access date.
 
