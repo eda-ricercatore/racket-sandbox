@@ -53,11 +53,11 @@ We can add comments to the source code as follows:
 
 ###	Naming Conventions
 
-Use *Racket* style to describe identifiers (or names for values, functions, and macros); that is, use words in small letters, with a hyphen separating the words, for identifiers.
+Use *Racket* style to describe **identifiers** (or names for values, functions, and macros); that is, use words in small letters, with a hyphen separating the words, for identifiers. E.g., `factorial-function`, `mass-of-person`, `get-layout-area`, `optimize-mig`, `sat-solver`, `dpll-t`, and `modified-nodal-analysis`.
 
 The binding is an association (or "mapping"/relationship) between the identifier and the value, function, or macro.
 
-
+A compilation requirement is that each identifier must have a binding.
 
 
 References:
