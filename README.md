@@ -71,6 +71,12 @@ References:
 	- Matthew Butterick, "Identifiers," from Beautiful Racket -- An Introduction to Language-Oriented Programming Using Racket: Explainers: Identifiers, Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/explainer/identifiers.html and https://beautifulracket.com/#explainers; June 30, 2021 was the last access date.
 
 
+### Binding Creation
+
+Create bindings explicitly with: `define`, `let`, or `lambda`. Explicit bindings will override existing shallow (or implicit) bindings.
+
+
+
 
 
 
