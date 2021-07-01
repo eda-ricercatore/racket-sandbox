@@ -133,7 +133,7 @@ References:
 + Søgaard2012
 	- Jens Axel "soegaard" Søgaard, Answer to "Why is one-armed “if” missing from Racket?", Stack Exchange Inc., New York, NY, June 2, 2012. Available online from *Stack Exchange Inc.: Stack Overflow: Questions* at: https://stackoverflow.com/a/10863193/1531728; June 30, 2021 was the last access date.
 + King2016
-	- Alexis King, Answer to "If statements in Racket", Stack Exchange Inc., New York, NY, January 22, 2016. Available online from *Stack Exchange Inc.: Stack Overflow: Questions* at: https://stackoverflow.com/a/34956312/1531728; July 1, 2021 was the last access date.
+	- Alexis King, Answer to "If statements in Racket", Stack Exchange Inc., New York, NY, January 22, 2016. Available online from *Stack Exchange Inc.: Stack Overflow: Questions* at: https://stackoverflow.com/a/34957438/1531728; July 1, 2021 was the last access date.
 
 
 
