@@ -77,6 +77,9 @@ References:
 
 Create bindings explicitly with: `define`, `let`, or `lambda`. Explicit bindings will override existing shallow (or implicit) bindings (e.g., due to `require` expressions).
 
+Each binding is limited by its scope.
+
+
 References:
 + Butterick2021
 	- Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
