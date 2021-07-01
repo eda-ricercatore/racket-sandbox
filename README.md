@@ -65,12 +65,25 @@ A compilation requirement is that each identifier must have a binding.
 
 Other naming conventions may be allowed, but are not *Racket* idiomatic, such as capitalized names (e., `Color`), separating words in an identifier with an underscore instead of a hyphen (e.g., `mass_of_person`), capitalizing the first character of each word in the identifier (e.g., `Modified-Nodal-Analysis` or `ModifiedNodalAnalysis`).
 
+Names of identifiers should not include plural words, especially for collections and libraries, since they are used by implementations of the *Racket* programming language `\cite{Felleisen2021}`.
+
+
+
 
 References:
 + Butterick2021
 	- Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
 + Butterick2021a
 	- Matthew Butterick, "Identifiers," from Beautiful Racket -- An Introduction to Language-Oriented Programming Using Racket: Explainers: Identifiers, Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/explainer/identifiers.html and https://beautifulracket.com/#explainers; June 30, 2021 was the last access date.
++ Felleisen2021
+	- Matthias Felleisen, Matthew Flatt, Robby Findler, and Jay McCarthy, "How to Program Racket: a Style Guide," Version 8.2.0.1, Northwestern University, Evanston, IL, June 29, 2021. Available online from *Northwestern University: Robert R. McCormick School of Engineering and Applied Science: Department of Computer Science: Northwestern University PLT: snapshots: Snapshot -- 20210630-f9143f04e0: PDF: pdf-doc* at: https://plt.cs.northwestern.edu/snapshots/current/pdf-doc/style.pdf; July 1, 2021 was the last access date.
++ Felleisen2021a
+	- Matthias Felleisen, Matthew Flatt, Robby Findler, and Jay McCarthy, "How to Program Racket: a Style Guide," Version 8.2.0.1, Northwestern University, Evanston, IL, June 29, 2021. Available online from *Northwestern University: Robert R. McCormick School of Engineering and Applied Science: Department of Computer Science: Northwestern University PLT: snapshots: Snapshot -- 20210630-f9143f04e0: Documentation: Racket Documentation: Racket Language and Core Libraries* at: https://plt.cs.northwestern.edu/snapshots/current/doc/style/index.html; July 1, 2021 was the last access date.
+
+
+
+
+
 
 
 ### Binding Creation
