@@ -61,6 +61,8 @@ The binding is an association (or "mapping"/relationship) between the identifier
 
 A compilation requirement is that each identifier must have a binding.
 
+Other naming conventions may be allowed, but are not *Racket* idiomatic, such as capitalized names (e., `Color`), separating words in an identifier with an underscore instead of a hyphen (e.g., `mass_of_person`), capitalizing the first character of each word in the identifier (e.g., `Modified-Nodal-Analysis` or `ModifiedNodalAnalysis`).
+
 
 References:
 + Butterick2021
