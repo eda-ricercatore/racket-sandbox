@@ -57,7 +57,7 @@ Use *Racket* style to describe **identifiers** (or names for values, functions, 
 
 Identifiers cannot be a numerical value (e.g., `84`), nor include whitespace nor any of the following characters: ``( ) [ ] { } " , ' ` ; # | \``.
 
-The binding is an association (or "mapping"/relationship) between the identifier and the value, function, or macro.
+The binding is an unique association (or "mapping"/relationship) between the identifier and the value, function, or macro. That is, multiple values, functions, or macros cannot share the same binding to an identifier.
 
 A compilation requirement is that each identifier must have a binding.
 
