@@ -53,11 +53,18 @@ We can add comments to the source code as follows:
 
 ###	Naming Conventions
 
+Use *Racket* style to describe identifiers (or names for values, functions, and macros); that is, use words in small letters, with a hyphen separating the words, for identifiers.
+
+The binding is an association (or "mapping"/relationship) between the identifier and the value, function, or macro.
+
 
 
 
 References:
-+ Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
++ Butterick2021
+	- Matthew Butterick, "Beautiful Racket: An Introduction to Language-Oriented Programming Using Racket," Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/; June 30, 2021 was the last access date.
++ Butterick2021
+	- Matthew Butterick, "Identifiers," from Beautiful Racket -- An Introduction to Language-Oriented Programming Using Racket: Explainers: Identifiers, Version 1.6, self-published, 2021. Available online at: https://beautifulracket.com/explainer/identifiers.html and https://beautifulracket.com/#explainers; June 30, 2021 was the last access date.
 
 
 
